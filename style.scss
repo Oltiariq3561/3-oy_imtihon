@@ -50,19 +50,48 @@
     transition: all 0.5s;
 }
 
-.card--text__a:hover{
-color: #FFCE50;
+.card--text__a:hover {
+    color: #FFCE50;
 }
 
-.services{
+.services {
     width: 1240px;
     height: 341px;
     border-radius: 20px;
     box-shadow: 0px 4px 20px 0px #00000026;
     margin-top: 67px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.service{
+
+.services--service {
     width: 228px;
     height: 245px;
 }
 
+.services--service__p {
+    width: 228px;
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    margin-top: 24px;
+
+}
+
+.services--service__text {
+    width: 225px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+    color: #6B6B6C;
+}
+
+.chiziq{
+    height: 261px;
+    border: 1px solid #D7D7DD;
+    margin-top: 20px;
+}
