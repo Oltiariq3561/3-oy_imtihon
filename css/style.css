@@ -1,1 +1,67 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans";
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+  background-color: white;
+}
+
+.card {
+  width: 1240px;
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+}
+
+.card--text__h1 {
+  font-family: "Exo 2";
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 65px;
+  width: 610px;
+}
+
+.card--text__p {
+  width: 525px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #6B6B6C;
+}
+
+.card--text__a {
+  width: 105px;
+  height: 27px;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  border-bottom: 3px solid #FFCE50;
+  color: black;
+  transition: all 0.5s;
+}
+
+.card--text__a:hover {
+  color: #FFCE50;
+}
+
+.services {
+  width: 1240px;
+  height: 341px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1490196078);
+  margin-top: 67px;
+}
+
+.service {
+  width: 228px;
+  height: 245px;
+}/*# sourceMappingURL=style.css.map */
