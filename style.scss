@@ -150,15 +150,39 @@
     font-size: 16px;
     font-weight: 400;
     padding-top: 16px;
-
+    color: #6B6B6C;
 }
 
-.wrapper1{
-display: flex;
-gap: 40px;
-margin-top: 62px;
-}
-.wrapper{
+.wrapper1 {
     display: flex;
     gap: 40px;
-    }
+    margin-top: 62px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 40px;
+}
+
+.works {
+    margin-top: 40px;
+    width: 1239px;
+    border-radius: 10px;
+
+}
+
+.works h1 {
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+
+
+}
+.works--p {
+    width: 465px;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B6B6C;
+    padding-top: 32px;
+}
