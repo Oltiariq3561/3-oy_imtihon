@@ -90,8 +90,75 @@
     color: #6B6B6C;
 }
 
-.chiziq{
+.chiziq {
     height: 261px;
     border: 1px solid #D7D7DD;
     margin-top: 20px;
 }
+
+.whyus {
+    width: 1242px;
+    height: 453px;
+    background-image: url(/img/background-fura.svg);
+    display: flex;
+    align-items: center;
+    margin-top: 67px;
+}
+
+.whyus--text {
+    width: 362px;
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-left: -680px;
+    color: white;
+}
+
+.green {
+    background-image: url(/img/green.svg);
+    width: 769px;
+    height: 453.5px;
+}
+
+.why-us {
+    width: 1242px;
+    height: 295px;
+    margin-left: 66px;
+    margin-top: 72.5px;
+}
+
+.why-us--card {
+    width: 447px;
+    display: flex;
+    align-items: center;
+    gap: 140px;
+
+}
+
+.b {
+    width: 327px;
+    height: 21px;
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.p1 {
+    width: 291px;
+    height: 41px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+
+}
+
+.wrapper1{
+display: flex;
+gap: 40px;
+margin-top: 62px;
+}
+.wrapper{
+    display: flex;
+    gap: 40px;
+    }
