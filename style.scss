@@ -440,6 +440,7 @@ table {
     margin-left: 32px;
 
     td {
+  
         padding: 13px 41px;
         background-color: $green;
         border: 1px solid #00000033;
@@ -564,7 +565,12 @@ table {
     margin-bottom: 94px;
 
 }
-
+ 
+.contacts-left{
+width: 248px;
+display: flex;
+flex-direction: column;
+}
 .contacts {
     display: flex;
     width: 1240px;
@@ -578,7 +584,7 @@ table {
     width: 232px;
     height: 43px;
     gap: 36.7px;
-
+    margin-bottom: 10px;
     p {
         font-size: 14px;
         font-weight: 400;
@@ -600,6 +606,7 @@ table {
     gap: 36.7px;
     padding-top: 44px;
     padding-bottom: 44px;
+    margin-bottom: 10px;
 
     p {
         font-size: 14px;
@@ -622,6 +629,7 @@ table {
     gap: 36.7px;
     padding-top: 44px;
     padding-bottom: 44px;
+    margin-bottom: 10px;
 
     p {
         font-size: 14px;
@@ -643,6 +651,7 @@ table {
     height: 43px;
     gap: 36.7px;
     padding-top: 44px;
+    margin-bottom: 10px;
 
     p {
         font-size: 14px;
@@ -663,19 +672,46 @@ table {
     height: 383px;
     border-radius: 5px;
     background-color:#f9f9fb;
-
+    padding-top: 40px;
+    padding-left: 48px;
 
     .input-text{
         width: 674px;
         height: 31px;
         border-bottom: 1px solid  #E9EAF2;
         display: flex;
+        margin-bottom: 32px;
+
+
     }
 
     p{
     width: 175px;
 font-size: 16px;
 font-weight: 400;
+color: #6B6B6C;
     }
 
+    span{
+    width: 443px;
+    height: 35px;
+    font-family: "Exo 2";
+font-size: 16px;
+font-weight: 600;
+margin-left: 56px;
+    }
+
+}
+
+iframe{
+margin-top: 46px;
+}
+
+.footer{
+    width: 1440px;
+    height: 365px;
+    top: 7842px;
+    gap: 0px;
+    opacity: 0px;
+    
 }
