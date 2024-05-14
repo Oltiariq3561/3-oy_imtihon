@@ -243,7 +243,41 @@ $green: #0B7572;
         font-family: "Exo 2";
     }
 }
+.work1 {
+    width: 393px;
+    height: 440px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px #0000001F;
+    margin-top: 56px;
 
+
+
+    p {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 32px;
+        margin-top: 24px;
+    }
+
+    .work--p {
+        font-family: "PT Sans";
+        font-size: 16px;
+        font-weight: 400;
+        color: #6B6B6C;
+        width: 291px;
+        margin-bottom: 32px;
+    }
+
+    a {
+
+        margin-left: 32px;
+    }
+
+    strong {
+        font-family: "Exo 2";
+    }
+}
 .background__table {
     width: 100%;
     height: 917px;
@@ -869,9 +903,35 @@ margin: 0 auto;
 margin-left: 350px;
 }
 
-
+.wrapperr{
+gap: 380px;
+}
 .works{
 margin-top: 200px;
+ 
+h1{
+margin-left: 120px;
+}
+.works--p{
+margin-left: 120px;
+}
+
+.work{
+width: 1000px;
+height: 423px;
+margin: 0 auto;
+img{
+width: 1000px;
+}
+}
+
+.work1{
+display: none;
+}
+}
+
+.background__table{
+margin-top: 400px;
 }
 
 }

@@ -223,6 +223,35 @@
   font-family: "Exo 2";
 }
 
+.work1 {
+  width: 393px;
+  height: 440px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+  margin-top: 56px;
+}
+.work1 p {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 32px;
+  margin-top: 24px;
+}
+.work1 .work--p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  color: #6B6B6C;
+  width: 291px;
+  margin-bottom: 32px;
+}
+.work1 a {
+  margin-left: 32px;
+}
+.work1 strong {
+  font-family: "Exo 2";
+}
+
 .background__table {
   width: 100%;
   height: 917px;
@@ -740,7 +769,30 @@ iframe {
     margin: 0 auto;
     margin-left: 350px;
   }
+  .wrapperr {
+    gap: 380px;
+  }
   .works {
     margin-top: 200px;
+  }
+  .works h1 {
+    margin-left: 120px;
+  }
+  .works .works--p {
+    margin-left: 120px;
+  }
+  .works .work {
+    width: 1000px;
+    height: 423px;
+    margin: 0 auto;
+  }
+  .works .work img {
+    width: 1000px;
+  }
+  .works .work1 {
+    display: none;
+  }
+  .background__table {
+    margin-top: 400px;
   }
 }/*# sourceMappingURL=style.css.map */
