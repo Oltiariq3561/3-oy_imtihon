@@ -728,6 +728,28 @@ iframe {
   margin-bottom: 32px;
 }
 
+button {
+  width: 271px;
+  height: 42px;
+  background-color: #FF9619;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  border: none;
+}
+
+.pp {
+  font-family: "Exo 2";
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  width: 100%;
+  background-color: #0B7572;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
 @media screen and (max-width: 690px) {
   .card {
     display: block;
