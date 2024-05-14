@@ -233,6 +233,10 @@
   margin-left: 81px;
 }
 
+table {
+  margin-right: 40px;
+}
+
 .tebl {
   width: 652px;
   height: 747px;
@@ -442,4 +446,161 @@ table h5 {
   text-align: left;
   color: #363738;
   padding: 10px 10px 10px 16px;
+}
+
+.team-text {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 130px;
+  margin-bottom: 72px;
+}
+
+.team-wrap {
+  width: 1240px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.team-wrap .team {
+  width: 605px;
+  height: 210px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+  border-radius: 10px;
+  border-left: 51px solid #0B7572;
+  display: flex;
+}
+.team-wrap .team img {
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-bottom: 40px;
+}
+
+.malumot p {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 47px;
+  padding-left: 40px;
+  padding-bottom: 12px;
+}
+.malumot span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6B6B6C;
+  padding-left: 40px;
+  padding-bottom: 16px;
+}
+.malumot .chizz {
+  border: 3px solid #FFCE50;
+  width: 86px;
+  margin-left: 40px;
+  margin-top: 16px;
+}
+
+.contact-text {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 130px;
+  margin-bottom: 94px;
+}
+
+.contacts {
+  display: flex;
+  width: 1240px;
+  height: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tel {
+  display: flex;
+  width: 232px;
+  height: 43px;
+  gap: 36.7px;
+}
+.tel p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6B6B6C;
+}
+.tel b {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tell {
+  display: flex;
+  width: 232px;
+  height: 43px;
+  gap: 36.7px;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+.tell p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6B6B6C;
+}
+.tell b {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.telll {
+  display: flex;
+  width: 232px;
+  height: 43px;
+  gap: 36.7px;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+.telll p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6B6B6C;
+}
+.telll b {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tellll {
+  display: flex;
+  width: 232px;
+  height: 43px;
+  gap: 36.7px;
+  padding-top: 44px;
+}
+.tellll p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6B6B6C;
+}
+.tellll b {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contact-right {
+  width: 794px;
+  height: 383px;
+  border-radius: 5px;
+  background-color: #f9f9fb;
+}
+.contact-right .input-text {
+  width: 674px;
+  height: 31px;
+  border-bottom: 1px solid #E9EAF2;
+  display: flex;
+}
+.contact-right p {
+  width: 175px;
+  font-size: 16px;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

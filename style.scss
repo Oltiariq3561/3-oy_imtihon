@@ -254,6 +254,10 @@ $green: #0B7572;
     }
 }
 
+table {
+    margin-right: 40px;
+}
+
 .tebl {
     width: 652px;
     height: 747px;
@@ -438,46 +442,240 @@ table {
     td {
         padding: 13px 41px;
         background-color: $green;
-    border: 1px solid #00000033;
-padding-top: 20px;
+        border: 1px solid #00000033;
+        padding-top: 20px;
     }
 
-    th{
-    border: 1px solid #00000033;
+    th {
+        border: 1px solid #00000033;
     }
-    p{
+
+    p {
         font-family: 'PT Sans';
         font-size: 14px;
         font-weight: 400;
         line-height: 18.9px;
         text-align: left;
-        padding: 10px 10px 10px 16px;      
+        padding: 10px 10px 10px 16px;
         color: #6B6B6C;
     }
-    h3{
+
+    h3 {
         font-family: 'Exo 2';
         font-size: 14px;
         font-weight: 600;
         line-height: 18.9px;
-        text-align: left;   
+        text-align: left;
         padding: 10px 10px 10px 16px;
     }
-    h2{
+
+    h2 {
         font-family: 'PT Sans';
         font-size: 14px;
         font-weight: 700;
         line-height: 18.9px;
-        text-align: left;    
+        text-align: left;
         padding: 10px 10px 10px 16px;
-        color: #363738; 
+        color: #363738;
     }
-    h5{
+
+    h5 {
         font-family: 'PT Sans';
         font-size: 14px;
         font-weight: 400;
         line-height: 18.9px;
         text-align: left;
-        color:$black;
+        color: $black;
         padding: 10px 10px 10px 16px;
     }
+}
+
+
+.team-text {
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 130px;
+    margin-bottom: 72px;
+}
+
+.team-wrap {
+    width: 1240px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .team {
+        width: 605px;
+        height: 210px;
+        box-shadow: 0px 4px 15px 0px #00000026;
+        border-radius: 10px;
+        border-left: 51px solid #0B7572;
+        display: flex;
+
+
+
+        img {
+            padding-top: 32px;
+            padding-left: 32px;
+            padding-bottom: 40px;
+        }
+    }
+
+
+
+}
+
+.malumot {
+
+
+
+    p {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 47px;
+        padding-left: 40px;
+        padding-bottom: 12px;
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 400;
+        color: $grey;
+        padding-left: 40px;
+        padding-bottom: 16px;
+    }
+
+    .chizz {
+        border: 3px solid #FFCE50;
+        width: 86px;
+        margin-left: 40px;
+        margin-top: 16px;
+    }
+
+}
+
+.contact-text {
+    font-family: "Exo 2";
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 130px;
+    margin-bottom: 94px;
+
+}
+
+.contacts {
+    display: flex;
+    width: 1240px;
+    height: 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tel {
+    display: flex;
+    width: 232px;
+    height: 43px;
+    gap: 36.7px;
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #6B6B6C;
+    }
+
+    b {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+}
+
+.tell {
+    display: flex;
+    width: 232px;
+    height: 43px;
+    gap: 36.7px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #6B6B6C;
+    }
+
+    b {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+}
+
+.telll {
+    display: flex;
+    width: 232px;
+    height: 43px;
+    gap: 36.7px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #6B6B6C;
+    }
+
+    b {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+}
+
+.tellll {
+    display: flex;
+    width: 232px;
+    height: 43px;
+    gap: 36.7px;
+    padding-top: 44px;
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #6B6B6C;
+    }
+
+    b {
+        font-family: "Exo 2";
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+}
+
+.contact-right{
+    width: 794px;
+    height: 383px;
+    border-radius: 5px;
+    background-color:#f9f9fb;
+
+
+    .input-text{
+        width: 674px;
+        height: 31px;
+        border-bottom: 1px solid  #E9EAF2;
+        display: flex;
+    }
+
+    p{
+    width: 175px;
+font-size: 16px;
+font-weight: 400;
+    }
+
 }
